@@ -82,10 +82,41 @@
             </div>
           </div>
         </div>
-
+      </div>
+    </section>
+    <section class="locations">
+      <div class="locations-map" id="map">
+      </div>
+      <div class="locations-info">
+        <div class="locations-info__title">
+          <h2 class="sub-text">Eos tation eripuit voluptua</h2>
+          <p class="p-text-dark">Ubique iudicabit aliquando ex vix. Sea vidit mucius ei, his cu nihil legendos. Per
+            nonumes posidonium ex. Vel possim contentiones no, qui te singulis laboramus dissentiunt. Ea vix sanctus
+            ullamcorper.</p>
+        </div>
+        <img src="/img/locations1.png" alt="">
+        <div class="locations-info__description">
+          <div class="titles">
+            <h2 class="sub-text">Ubique</h2>
+            <h2 class="sub-text">accusam</h2>  
+          </div>
+          <p class="p-text-dark">Ubique iudicabit aliquando ex vix. Sea vidit mucius ei, his cu nihil legendos. </p>
+          <button class="btn btn-secondary btn-box">ULLAMCORPER</button>
+        </div>
       </div>
     </section>
   </div>
+  <script>
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: -34.397, lng: 150.644 },
+        zoom: 8
+      });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_eQNQtm5PHzQG02wkGY7EDsN0HEAXuc8&callback=initMap"
+    async defer></script>
 </body>
 
 </html>
