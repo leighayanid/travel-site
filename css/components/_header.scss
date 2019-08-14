@@ -1,0 +1,12 @@
+.header {
+  background: linear-gradient(to right, rgba(black, .2) rgba(black ,.2)), url('/img/main-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
