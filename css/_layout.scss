@@ -143,7 +143,6 @@
 }
 
 .tourist-spots {
-  height: 100vh;
   width: 100%;
   padding: 3rem 0;
 
@@ -162,7 +161,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(7, 1fr);
   grid-gap: .75rem;
-  height: 50rem;
+  height: 60rem;
   padding: 5rem 0;
 
   img {
@@ -209,5 +208,24 @@
       grid-column: 4 / 5;
       grid-row: 4 / -1;
     }
+  }
+}
+
+.videos {
+  h2 {
+    text-align: center
+  }
+}
+
+.video {
+  width: 100vw;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  padding: 2rem 0;
+
+  img {
+    height: 8rem;
+    width: 100%;
   }
 }
