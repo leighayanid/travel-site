@@ -579,6 +579,10 @@ footer .items p:nth-child(2) {
           align-items: flex-start;
 }
 
+.header button {
+  margin-top: 4rem;
+}
+
 .navigation {
   display: -ms-grid;
   display: grid;
